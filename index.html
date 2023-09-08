@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      display: grid;
+      background-color: #F0F1EC;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 1fr 1fr 50px;
+      grid-template-rows: 1fr 1fr 20px;
+      gap: 0px;
+      /* border: 1px solid olive; */
+      
+    }
+    .a{
+      background-color: #E72F24;
+      border-right: 9px solid #232629;
+      border-bottom: 9px solid #232629;
+    }
+   .b{
+    border-bottom: 9px solid #232629;
+   }
+   .c{
+    border-bottom: 9px solid #232629;
+   
+   }
+   .d{
+    border-bottom: 9px solid #232629 ;
+    border-right: 9px solid #232629 ;
+   }
+   .e{
+    border-right: 9px solid #232629;
+    border-bottom: 9px solid #232629;
+   }
+   .f{
+    border-bottom: 10px solid #232629;
+    height: 130px;
+    width: 50px;
+    background-color: #004592;
+   }
+   .g{
+    border-right: 9px solid #232629;
+   }
+   .h{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   .yellow {
+    background-color: #F9D01E ;
+   }
+   .black{
+    background-color: #232629;
+   }
+ 
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="f"></div>
+    <div class="g"></div>
+    <div class="h black">
+      <div class="i yellow"></div>
+    </div>
+  </div>
+</body>
+
+</html>
